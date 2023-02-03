@@ -23,7 +23,8 @@ def check_tuple(position):
         raise TypeError("position must be a tuple of 2 positive integers")
         return False
 
-    if position[0] is None or position[1] is None:
+
+    if len(position) != 2:
         raise TypeError("position must be a tuple of 2 positive integers")
         return False
 
