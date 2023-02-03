@@ -19,12 +19,7 @@ def is_int(value):
 def check_tuple(position):
     """Check Tuple"""
 
-    if type(position) is not tuple:
-        raise TypeError("position must be a tuple of 2 positive integers")
-        return False
-
-
-    if len(position) != 2:
+    if type(position) is not tuple or len(position) != 2:
         raise TypeError("position must be a tuple of 2 positive integers")
         return False
 
