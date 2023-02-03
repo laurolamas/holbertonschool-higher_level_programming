@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""Task 3"""
 
 
 class Square:
+    """Square Class"""
     def __init__(self, size=0):
 
         if type(size) is not int:
