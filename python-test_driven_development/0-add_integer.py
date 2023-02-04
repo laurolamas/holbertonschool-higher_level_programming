@@ -2,6 +2,8 @@
 """
 Task 0
 """
+
+
 def add_integer(a, b=98):
     """Add Integer"""
 
