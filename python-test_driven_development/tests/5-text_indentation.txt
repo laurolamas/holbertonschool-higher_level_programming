@@ -13,6 +13,12 @@ Hola
 
 >>> text_indentation("Hola. Lauro")
 Hola.
+<BLANKLINE>
+Lauro
+
+>>> text_indentation("Hola\n\nLauro")
+Hola
+<BLANKLINE>
 Lauro
 
 >>> text_indentation(7)
