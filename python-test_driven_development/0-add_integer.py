@@ -1,7 +1,9 @@
-#!/usr/bin/pyhon3
-
-
+#!/usr/bin/python3
+"""
+Task 0
+"""
 def add_integer(a, b=98):
+    """Add Integer"""
 
     if a is None:
         raise TypeError("a must be an integer")
