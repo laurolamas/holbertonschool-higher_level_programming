@@ -14,6 +14,6 @@ else:
     new_list = []
 
 for i in range(1, len(sys.argv)):
-    new_list.append(sys.argv[i])
+    new_list.append(str(sys.argv[i]))
 
 save_to_json_file(new_list, "add_item.json")
