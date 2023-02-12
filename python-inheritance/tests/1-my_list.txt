@@ -24,3 +24,7 @@
 
 >>> print(new_list)
 [1, 2]
+
+>>> new_list.print_sorted() is not new_list
+[1, 2]
+True
