@@ -5,6 +5,7 @@ from models.base import Base
 
 
 def check_width(width):
+    """ Checks Input """
     if type(width) is not int:
         raise TypeError("width must be an integer")
     if width <= 0:
@@ -12,6 +13,7 @@ def check_width(width):
 
 
 def check_height(height):
+    """ Checks Input """
     if type(height) is not int:
         raise TypeError("height must be an integer")
     if height <= 0:
@@ -19,6 +21,7 @@ def check_height(height):
 
 
 def check_x(x):
+    """ Checks Input """
     if type(x) is not int:
         raise TypeError("x must be an integer")
     if x < 0:
@@ -26,6 +29,7 @@ def check_x(x):
 
 
 def check_y(y):
+    """ Checks Input """
     if type(y) is not int:
         raise TypeError("y must be an integer")
     if y < 0:
