@@ -44,4 +44,15 @@ class Square(Rectangle):
 
     def to_dictionary(self):
         """ To Dictionary """
-        return self.__dict__
+        dic = self.__dict__
+        new_dic = {}
+        for key, value in dic.items():
+            if key == 'id':
+                new_dic[key] = value
+            elif key == '_Rectangle__width':
+                new_dic['size'] = value
+            elif key == '_Rectangle__height':
+                pass
+            else:
+                new_dic[key[12:]] = value
+        return new_dic
