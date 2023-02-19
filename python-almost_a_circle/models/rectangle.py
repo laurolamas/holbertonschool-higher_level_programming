@@ -102,4 +102,11 @@ class Rectangle(Base):
 
     def to_dictionary(self):
         """ To Dictionary """
-        return self.__dict__
+        dic = self.__dict__
+        new_dic = {}
+        for key, value in dic.items():
+            if key == 'id':
+                new_dic[key] = value
+            else:
+                new_dic[key[12:]] = value
+        return new_dic
