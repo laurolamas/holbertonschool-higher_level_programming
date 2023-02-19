@@ -104,4 +104,5 @@ class Rectangle(Base):
 
         
     def to_dictionary(self):
+        """ To Dictionary """
         return self.__dict__
