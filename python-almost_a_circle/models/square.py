@@ -30,7 +30,7 @@ class Square(Rectangle):
         if len(args) > 2:
             self.x = args[2]
         if len(args) > 3:
-            self.x = args[3]
+            self.y = args[3]
 
         if args is not None and len(args) > 0:
             return
