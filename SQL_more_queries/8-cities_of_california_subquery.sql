@@ -4,6 +4,6 @@ SELECT
 FROM
     cities
 WHERE
-    state_id in (SELECT id from states WHERE name like 'California')
+    state_id IN (SELECT id FROM states WHERE name LIKE 'California')
 ORDER BY id ASC
 ;
