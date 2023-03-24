@@ -28,3 +28,4 @@ if __name__ == "__main__":
             found = True
     if not found:
         print("Not Found")
+        raise  TypeError
