@@ -27,5 +27,4 @@ if __name__ == "__main__":
             print(state.id)
             found = True
     if not found:
-        print("Not Found")
-        raise  TypeError
+        print("Not Found", file=sys.stderr)
