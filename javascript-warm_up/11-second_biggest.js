@@ -18,5 +18,5 @@ if (args.length < 4) {
     }
   }
 
-  console.log(x);
+  console.log(sndMax);
 }
