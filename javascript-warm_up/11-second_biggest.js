@@ -13,10 +13,8 @@ if (args.length < 4) {
     x = parseInt(args[i]);
     if (x > sndMax && x < max) {
       sndMax = x;
-      console.log(`new sndMax = ${x}`);
     } else if (x > max) {
       max = x;
-      console.log(`new max = ${x}`);
       i = 2;
     }
   }
