@@ -15,11 +15,12 @@ if (args.length < 2) {
 
   for (let i = 2; i < args.length; i++) {
     x = parseInt(args[i]);
-    if (x > sndMax && x < max) {
-      sndMax = x;
-    } else if (x > max) {
+
+    if (x > max) {
+      sndMax = max;
       max = x;
-      i = 2;
+    } else if (x > sndMax && x !== max) {
+      sndMax = x;
     }
   }
 
