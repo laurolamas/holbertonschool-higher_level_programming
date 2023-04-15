@@ -9,8 +9,9 @@ if (args.length < 4) {
   let sndMax = parseInt(args[2]);
   let x = parseInt(args[2]);
 
-  for (let i = 2; i < args.legth; i++) {
+  for (let i = 2; i < args.length; i++) {
     x = parseInt(args[i]);
+    console.log(`x = ${x}`);
     if (x > sndMax && x < max) {
       sndMax = x;
     } else if (x > max) {
