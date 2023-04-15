@@ -6,7 +6,8 @@ if (args.length < 4) {
   console.log(0);
 } else {
   let max = parseInt(args[2]);
-  let sndMax = parseInt(args[2]);
+  /*let sndMax = parseInt(args[2]);*/
+  let sndMax = 0;
   let x = parseInt(args[2]);
 
   for (let i = 2; i < args.length; i++) {
